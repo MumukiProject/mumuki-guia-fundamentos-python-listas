@@ -11,4 +11,4 @@ Y al igual que cuando contamos los caracteres de los strings, no importa si los 
 4
 ```
 
-En otras palabras, las listas conservan tanto el orden como la repetición de sus elementos. ¡Las listas son increíbles! :heart_eyes:
+En otras palabras, las listas conservan tanto el orden como la repetición de sus elementos. ¡Son increíbles! :heart_eyes:

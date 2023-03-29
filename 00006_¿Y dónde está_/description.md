@@ -12,7 +12,7 @@ Como ves, lo curioso de esta función es que pareciera devolver siempre uno meno
 
 ¡No! :sweat_smile: Se trata de que en Python, al igual que en muchos lenguajes, las posiciones de las listas arrancan en 0: el primer elemento está en la posición 0, el segundo en la 1, el tercero en la 2, y así.
 
-> ¿Y qué sucede si le pasás por parámetro a `list.index` un elemento que no tiene? ¡Averigualo!
+> ¿Y qué sucede si le pasás como argumento a `list.index` un elemento que no tiene? ¡Averigualo!
 >
 > Probá lo siguiente:
 >

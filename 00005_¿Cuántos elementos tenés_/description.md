@@ -2,14 +2,14 @@ Por el momento ya sabemos qué cosas podemos representar con listas, y cómo hac
 
 Empecemos por lo fácil: ¿te acordás de `len`? También funciona con listas. 
 
-> Realizá las siguientes consultas en la consola y fijate que hace:
+> Realizá las siguientes consultas en la consola y fijate qué hace. ¿Podés sacar alguna conclusión?
 >
 >``` python
 ムlen([])
 ```
 >
 >``` python
-ムlen([4, 3])
+ムlen([4, 4])
 ```
 >
 >``` python

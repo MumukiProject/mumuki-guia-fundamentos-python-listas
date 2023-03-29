@@ -1,1 +1,1 @@
-¡Qué coherencia la de Python! :clap: Tira error cuando queremos acceder al índice de un elemento que no está en la lista, pero también cuando queremos acceder a un elemento en una posición que no tiene.
+¡Qué coherencia la de Python! :clap: Tira el error `IndexError: list index out of range` cuando queremos acceder al índice de un elemento que no está en la lista, pero también cuando queremos acceder a un elemento en una posición que no tiene.

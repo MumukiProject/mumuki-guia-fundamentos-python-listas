@@ -10,6 +10,10 @@ manual_evaluation: false
 progressive_expectations: false
 choices: []
 goal:
-  kind: last_query_outputs
-  output: 'True'
+  kind: queries_match
+  regexps:
+  - ^\[\s*\"hola\"\s*\,\s*\"mundo\"\s*\]\s*\=\=\s*\[\s*\"mundo\"\s*\,\s*\"hola\"\s*\]\s*$
+  - ^\[\s*\"hola\"\s*\,\s*\"mundo\"\s*\]\s*\=\=\s*\[\s*\"hola\"\s*\,\s*\"todo\"\s*\,\s*\"el\"\s*\,\s*\"mundo\"\s*\]\s*$
+  - ^\[\s*\"hola\"\s*\]\s*\=\=\s*\[\s*\"hola\"\s*\,\s*\"mundo\"\s*\]\s*$
+  - ^\[\s*\"hola\"\s*\,\s*\"mundo\"\s*\]\s*\=\=\s*\[\s*\"hola\"\s*\,\s*\"mundo\"\s*\]\s*$
 name: Y esto es una lista

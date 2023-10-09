@@ -10,5 +10,7 @@ manual_evaluation: false
 progressive_expectations: false
 choices: []
 goal:
-  kind: last_query_fails
+  kind: queries_match
+  regexps:
+  - ^list\.index\s*\(\s*dias_laborales\s*\,\s*\"osvaldo\"\s*\)\s*$
 name: "¿Y dónde está?"
